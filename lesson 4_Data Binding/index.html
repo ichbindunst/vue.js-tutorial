@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>VueJS Tutorial</title>
+</head>
+<body>
+    <div id="vue-app">
+        <h1>Date Binding</h1>
+        <a v-bind:href="website">The Net Ninja</a>
+        <input type="text" v-bind:value='job'>
+        <p v-html="websiteTag"></p>
+
+        <p>Name: {{name}} </p>
+        <p>Job: {{job}} </p>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
